@@ -36,3 +36,9 @@ h1, h2 {
     height: auto;
     margin: 0 auto;
 }
+
+.image-placeholder {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
