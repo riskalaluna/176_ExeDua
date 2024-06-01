@@ -1,0 +1,1 @@
+/// Placeholder for JavaScript functionality if needed for Page 1
