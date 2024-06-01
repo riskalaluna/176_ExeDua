@@ -14,7 +14,7 @@ h1, h2 {
 }
 
 .section-container {
-    background-color: #f8f9fa;
+    background-color: #6ba1e7;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ h1, h2 {
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #e9ecef;
+    background-color: #6ba1e7;
 }
 
 .video-landscape {

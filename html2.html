@@ -13,35 +13,35 @@
         <h3>FORM</h3>
         <form id="surveyForm">
             <div class="form-group">
-                <label for="textInput">Text Input</label>
+                <label for="textInput">Nama</label>
                 <input type="text" class="form-control" id="textInput" placeholder="Enter text">
             </div>
             <div class="form-group">
-                <label for="dateInput">Date Input</label>
+                <label for="dateInput">Tanggal Lahir</label>
                 <input type="date" class="form-control" id="dateInput">
             </div>
             <div class="form-group">
-                <label for="selectInput">Select Input</label>
+                <label for="selectInput">Angkatan</label>
                 <select class="form-control" id="selectInput">
                     <option value="">Choose an option</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option value="Option 1">2021</option>
+                    <option value="Option 2">2022</option>
+                    <option value="Option 3">2023</option>
                 </select>
             </div>
             <div class="form-group">
-                <label>Radio Input</label>
+                <label>Peminatan</label>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="radioOptions" id="radioOption1" value="Option 1">
-                    <label class="form-check-label" for="radioOption1">Add text 1</label>
+                    <label class="form-check-label" for="radioOption1">Pemrograman</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="radioOptions" id="radioOption2" value="Option 2">
-                    <label class="form-check-label" for="radioOption2">Add text 2</label>
+                    <label class="form-check-label" for="radioOption2">Data</label>
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="radioOptions" id="radioOption3" value="Option 3">
-                    <label class="form-check-label" for="radioOption3">Add text 3</label>
+                    <label class="form-check-label" for="radioOption3">Jaringan</label>
                 </div>
             </div>
             <button type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
@@ -49,10 +49,10 @@
     
         <div class="result-container mt-5">
             <h3>Form Results</h3>
-            <p><strong>Text Input:</strong> <span id="resultTextInput"></span></p>
-            <p><strong>Date Input:</strong> <span id="resultDateInput"></span></p>
-            <p><strong>Select Input:</strong> <span id="resultSelectInput"></span></p>
-            <p><strong>Radio Input:</strong> <span id="resultRadioInput"></span></p>
+            <p><strong>Nama:</strong> <span id="resultTextInput"></span></p>
+            <p><strong>Tanggal Lahir:</strong> <span id="resultDateInput"></span></p>
+            <p><strong>Angkatan:</strong> <span id="resultSelectInput"></span></p>
+            <p><strong>Peminatan:</strong> <span id="resultRadioInput"></span></p>
         </div>
     </div>
 
