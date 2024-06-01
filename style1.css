@@ -42,3 +42,7 @@ h1, h2 {
     height: auto;
     margin: 0 auto;
 }
+
+.btn-primary {
+    margin-top: 20px;
+}
